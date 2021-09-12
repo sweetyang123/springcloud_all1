@@ -9,19 +9,23 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yt</groupId>
-    <artifactId>Eureka_Server</artifactId>
+    <artifactId>Eureka_Provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Eureka_Server</name>
+    <name>Eureka_Provider</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
-<!--        <spring-cloud.version>2020.0.3</spring-cloud.version>-->
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+<!--            <version>3.0.3</version>-->
         </dependency>
 
         <dependency>

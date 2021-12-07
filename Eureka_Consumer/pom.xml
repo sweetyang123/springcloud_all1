@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yt</groupId>
-    <artifactId>Eureka_Provider</artifactId>
+    <artifactId>Eureka_Consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Eureka_Provider</name>
+    <name>Eureka_Consumer</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
